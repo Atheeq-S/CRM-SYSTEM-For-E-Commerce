@@ -1,0 +1,16 @@
+com/examly/springapp/CrmSystemApplication.class
+com/examly/springapp/config/DataLoader.class
+com/examly/springapp/config/SwaggerConfig.class
+com/examly/springapp/service/InteractionService.class
+com/examly/springapp/model/User.class
+com/examly/springapp/dto/LoginRequest.class
+com/examly/springapp/repository/UserRepository.class
+com/examly/springapp/dto/UserRegistrationRequest.class
+com/examly/springapp/config/CorsConfig.class
+com/examly/springapp/service/JwtService.class
+com/examly/springapp/model/UserRole.class
+com/examly/springapp/security/JwtAuthenticationFilter.class
+com/examly/springapp/config/SecurityConfig.class
+com/examly/springapp/dto/LoginResponse.class
+com/examly/springapp/service/AuthService.class
+com/examly/springapp/service/CustomerService.class

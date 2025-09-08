@@ -1,0 +1,148 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.examly:springapp >------------------------
+[INFO] Building crm-system 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.0:run (default-cli) > test-compile @ springapp >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ springapp ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ springapp ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ springapp ---
+[INFO] Copying 1 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ springapp ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.4.0:run (default-cli) < test-compile @ springapp <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.0:run (default-cli) @ springapp ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2025-08-21T00:24:06.911+05:30  INFO 52387 --- [           main] c.examly.springapp.CrmSystemApplication  : Starting CrmSystemApplication using Java 17.0.16 with PID 52387 (/Users/ahamed/Downloads/atheeq srs completed /springapp/target/classes started by ahamed in /Users/ahamed/Downloads/atheeq srs completed /springapp)
+2025-08-21T00:24:06.913+05:30  INFO 52387 --- [           main] c.examly.springapp.CrmSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-21T00:24:07.226+05:30  INFO 52387 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-21T00:24:07.251+05:30  INFO 52387 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2025-08-21T00:24:07.480+05:30  INFO 52387 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-21T00:24:07.488+05:30  INFO 52387 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-21T00:24:07.488+05:30  INFO 52387 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-08-21T00:24:07.515+05:30  INFO 52387 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-21T00:24:07.515+05:30  INFO 52387 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 584 ms
+2025-08-21T00:24:07.574+05:30  INFO 52387 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-21T00:24:07.593+05:30  INFO 52387 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-08-21T00:24:07.610+05:30  INFO 52387 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-21T00:24:07.715+05:30  INFO 52387 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-21T00:24:07.727+05:30  INFO 52387 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-21T00:24:07.867+05:30  INFO 52387 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46a388cc
+2025-08-21T00:24:07.868+05:30  INFO 52387 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-21T00:24:07.892+05:30  WARN 52387 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-21T00:24:07.899+05:30  INFO 52387 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-21T00:24:08.290+05:30  INFO 52387 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-21T00:24:08.319+05:30  INFO 52387 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-21T00:24:08.478+05:30  INFO 52387 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-21T00:24:08.674+05:30  WARN 52387 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-21T00:24:08.683+05:30  INFO 52387 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-08-21T00:24:08.936+05:30  INFO 52387 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-21T00:24:08.942+05:30  INFO 52387 --- [           main] c.examly.springapp.CrmSystemApplication  : Started CrmSystemApplication in 2.177 seconds (process running for 2.315)
+Hibernate: 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.username=? 
+    limit
+        ?
+Hibernate: 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.username=? 
+    limit
+        ?
+Default users created:
+Admin - username: admin, password: admin123
+Sales Rep - username: sales, password: sales123
+2025-08-21T00:24:36.925+05:30  INFO 52387 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-21T00:24:36.925+05:30  INFO 52387 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-21T00:24:36.926+05:30  INFO 52387 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-21T00:24:43.992+05:30  INFO 52387 --- [nio-8080-exec-3] c.examly.springapp.service.AuthService   : Login attempt for username: admin
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-08-21T00:24:44.002+05:30  INFO 52387 --- [nio-8080-exec-3] c.examly.springapp.service.AuthService   : User found: admin
+2025-08-21T00:24:44.002+05:30  INFO 52387 --- [nio-8080-exec-3] c.examly.springapp.service.AuthService   : Stored password hash: $2a$10$Tx3q.juTg/9WpLHwb7321.ghymo3TRnxbc5gqNgbFNuRTkaWbJDda
+2025-08-21T00:24:44.002+05:30  INFO 52387 --- [nio-8080-exec-3] c.examly.springapp.service.AuthService   : Input password: admin123
+2025-08-21T00:24:44.103+05:30  INFO 52387 --- [nio-8080-exec-3] c.examly.springapp.service.AuthService   : Password matches: true
+2025-08-21T00:24:44.103+05:30  INFO 52387 --- [nio-8080-exec-3] c.examly.springapp.service.JwtService    : Generating JWT token for user: admin
+2025-08-21T00:24:44.103+05:30  INFO 52387 --- [nio-8080-exec-3] c.examly.springapp.service.JwtService    : JWT secret length: 54
+2025-08-21T00:24:44.103+05:30  INFO 52387 --- [nio-8080-exec-3] c.examly.springapp.service.JwtService    : JWT expiration: 86400000 ms
+2025-08-21T00:24:44.103+05:30  INFO 52387 --- [nio-8080-exec-3] c.examly.springapp.service.JwtService    : JWT claims: {role=ADMIN}
+2025-08-21T00:24:44.117+05:30  INFO 52387 --- [nio-8080-exec-3] c.examly.springapp.service.JwtService    : JWT token generated successfully, length: 151
+2025-08-21T00:24:44.117+05:30  INFO 52387 --- [nio-8080-exec-3] c.examly.springapp.service.AuthService   : JWT token generated successfully
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.customer_type,
+        c1_0.email,
+        c1_0.first_name,
+        c1_0.last_name,
+        c1_0.phone_number,
+        c1_0.registration_date 
+    from
+        customers c1_0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  04:13 min
+[INFO] Finished at: 2025-08-21T00:28:19+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.0:run (default-cli) on project springapp: Process terminated with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

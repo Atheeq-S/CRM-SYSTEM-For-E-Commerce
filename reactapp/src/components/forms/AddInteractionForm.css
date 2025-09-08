@@ -1,0 +1,85 @@
+/* AddInteractionForm.css */
+.interaction-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.interaction-form-group-submit {
+    margin-bottom: 2rem;
+}
+
+.interaction-form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    font-size: 14px;
+}
+
+.interaction-form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.interaction-form-select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.interaction-form-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 80px;
+}
+
+.interaction-form-error {
+    color: #d32f2f;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.interaction-submit-container {
+    text-align: center;
+}
+
+.interaction-submit-btn {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 120px;
+}
+
+.interaction-submit-btn:hover {
+    background-color: #3367d6;
+}
+
+.interaction-success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 1rem;
+    text-align: center;
+}
+.action-btn edit-btn small{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    background: lightblue;
+}

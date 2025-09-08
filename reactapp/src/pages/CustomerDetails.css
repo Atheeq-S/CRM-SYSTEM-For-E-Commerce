@@ -1,0 +1,126 @@
+/* CustomerDetails.css */
+.customer-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.customer-details-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.section-title {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-content {
+    padding: 1.5rem;
+}
+
+.customer-name {
+    margin: 0 0 1rem 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.customer-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    color: #666;
+}
+
+.loading-details {
+    text-align: center;
+    padding: 2rem;
+    font-size: 16px;
+    color: #666;
+}
+
+.error-details {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 8px;
+    border: 1px solid #f5c6cb;
+}
+
+.interactions-empty {
+    text-align: center;
+    color: #666;
+    padding: 2rem;
+}
+
+.interactions-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.interaction-card {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
+
+.interaction-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.5rem;
+    font-size: 14px;
+    color: #666;
+}
+
+.interaction-description {
+    margin-top: 0.5rem;
+    font-size: 14px;
+    color: #333;
+}
+
+.editbutton {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.editbutton:hover {
+    background: #0056b3;
+    transform: translateZ(5px) scale(1.02);
+    box-shadow: 0 5px 15px rgba(173, 216, 230, 0.5);
+}
+
+.editbutton:active {
+    background: #0056b3;
+    transform: translateZ(0) scale(1);
+}
+
+.editbutton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}

@@ -22,7 +22,7 @@ This is a complete CRM (Customer Relationship Management) system with a React fr
    npm install
    npm start
    ```
-3. The frontend will start on `http://localhost:3000`
+3. The frontend will start on `http://localhost:8081`
 
 ## Authentication
 
